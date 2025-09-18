@@ -30,11 +30,11 @@ Make sure you have [Node.js](https://nodejs.org/en/) (v18 or newer recommended) 
 
 1.  Clone the repository to your local machine:
     ```sh
-    git clone <your-repository-url>
+    git clone https://github.com/silvadouglasFull/flaflorClimatizacao
     ```
 2.  Navigate to the project directory:
     ```sh
-    cd flaFlorWeb
+    cd flaflorClimatizacao
     ```
 3.  Install the dependencies:
     ```sh
