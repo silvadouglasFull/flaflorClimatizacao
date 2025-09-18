@@ -27,7 +27,8 @@ const Header = () => {
             }}
           />
           <span className="text-2xl font-bold tracking-tight text-center">
-            FLA<span className="text-[#83b653]">FLOR</span>
+            FLA<span className="text-[#c4e2a8]">&</span>
+            <span className="text-[#83b653]">FLOR</span>
             <p className="text-[#fff] uppercase text-center text-sm">
               Climitatização
             </p>
