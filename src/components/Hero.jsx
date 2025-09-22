@@ -6,7 +6,7 @@ import { Zap } from "lucide-react";
 const Hero = () => {
   const handleCTAClick = () => {
     window.open(
-      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para manutenção de ar condicionado.",
+      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para meu ar condicionado.",
       "_blank"
     );
   };
@@ -27,13 +27,17 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-4">
-            Seu Ar Condicionado Parou? <br />
-            <span className="text-[#83b653]">Resolvemos em Tempo Recorde!</span>
+            Como está o seu ar condicionado?
+            <br />
+            <span className="text-[#83b653]">
+              Está precisando de manutenção ou limpeza?
+            </span>
           </h1>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-300 mb-8">
-            Técnicos certificados para manutenção, limpeza e reparo de ar
-            condicionado em todo o estado de São Paulo. Atendimento rápido e
-            garantia de qualidade.
+            Técnicos habilitados para manutenção e limpeza de ar condicionado em
+            Jacareí (SP), Mogi das Cruzes (SP), São José dos Campos (SP),
+            Salesópolis (SP) e Suzano (SP). Atendimento rápido e garantia de
+            qualidade.
           </p>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button

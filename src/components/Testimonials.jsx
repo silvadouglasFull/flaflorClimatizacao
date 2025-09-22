@@ -3,24 +3,24 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Maria S.",
+    name: "Angelo Silva",
     location: "São Paulo, SP",
     comment:
-      "Atendimento super rápido! O técnico resolveu o problema do meu ar em menos de uma hora. Recomendo!",
+      "Serviço excelente! Profissionais muito competentes, pontuais e cuidadosos. Fizeram a limpeza do ar-condicionado com muita atenção aos detalhes e explicaram tudo de forma clara. Atendimento rápido, preço justo e o ambiente ficou super agradável depois do serviço. Recomendo de olhos fechados!",
     rating: 5,
   },
   {
-    name: "João P.",
-    location: "Campinas, SP",
+    name: "Amanda Maciel",
+    location: "Tatuí, SP",
     comment:
-      "Serviço profissional e de confiança. Fizeram a limpeza completa e o ar ficou como novo. Muito satisfeito.",
+      "Tive uma excelente experiência com FlaFlor Climatização. Foram extremamente responsáveis e profissionais do início ao fim. Atendimento respeitoso e transparente, o que nos transmitiu muita confiança. Eu e minha família nos sentimos totalmente seguros com o serviço prestado. Recomendo de coração!",
     rating: 5,
   },
   {
-    name: "Ana L.",
+    name: "Tati Carvalho",
     location: "Santos, SP",
     comment:
-      "Equipe muito atenciosa e qualificada. Explicaram todo o procedimento. Com certeza chamarei novamente.",
+      "Super indico! Profissionais muito comprometidos com o serviço e com o cliente. Caprichosos e honestos. Experiência no ramo há mais de 10 anos.",
     rating: 5,
   },
 ];

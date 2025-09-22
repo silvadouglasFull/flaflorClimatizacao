@@ -6,7 +6,7 @@ import { Instagram, Phone } from "lucide-react";
 const Header = () => {
   const handleCTAClick = () => {
     window.open(
-      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para manutenção de ar condicionado.",
+      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para meu ar condicionado.",
       "_blank"
     );
   };
@@ -27,9 +27,9 @@ const Header = () => {
             }}
           />
           <span className="text-2xl font-bold tracking-tight text-center">
-            FLA<span className="text-[#c4e2a8]">&</span>
-            <span className="text-[#83b653]">FLOR</span>
-            <p className="text-[#fff] uppercase text-center text-sm">
+            Fla
+            <span className="text-[#83b653]">Flor</span>
+            <p className="text-[#fff] captalize text-center text-sm">
               Climitatização
             </p>
           </span>

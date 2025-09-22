@@ -7,7 +7,7 @@ const services = [
     icon: <Wrench className="h-12 w-12 text-[#172548]" />,
     title: "Manutenção Preventiva",
     description:
-      "Evite problemas futuros e garanta a eficiência do seu aparelho com nossa manutenção completa.",
+      "Evite problemas futuros e garanta a eficiência do seu aparelho com nossa manutenção preventiva.",
   },
   {
     icon: <Wind className="h-12 w-12 text-[#172548]" />,

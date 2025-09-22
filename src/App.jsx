@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="bg-[#e6edfd] text-[#172548]">
       <Helmet>
-        <title>Fla&Flor | Climatização</title>
+        <title>FlaFlor | Climatização</title>
         <meta
           name="description"
           content="Serviços de manutenção, limpeza e instalação de ar condicionado em São Paulo. Técnicos certificados e atendimento rápido. Solicite seu orçamento via WhatsApp!"

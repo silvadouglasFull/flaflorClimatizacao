@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 const FloatingWhatsApp = () => {
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para manutenção de ar condicionado.",
+      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para meu ar condicionado.",
       "_blank"
     );
   };

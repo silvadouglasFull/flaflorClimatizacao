@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const features = [
   {
     icon: <Award className="h-10 w-10 text-[#83b653]" />,
-    title: "Técnicos Certificados",
+    title: "Técnicos Habilitados",
     description:
       "Nossa equipe é formada por profissionais qualificados e experientes, garantindo um serviço seguro e eficaz.",
   },
@@ -13,7 +13,7 @@ const features = [
     icon: <Clock className="h-10 w-10 text-[#83b653]" />,
     title: "Atendimento Rápido",
     description:
-      "Entendemos a sua urgência. Chegamos rápido para resolver o problema do seu ar condicionado.",
+      "Entendemos a sua urgência. Atendimento rápido para resolver o problema do seu ar condicionado.",
   },
   {
     icon: <ShieldCheck className="h-10 w-10 text-[#83b653]" />,
@@ -41,7 +41,7 @@ const WhyUs = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-[#172548] mb-6">
-              Por que escolher a FLAFLOR?
+              Por que escolher a FlaFlor?
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Não arrisque o seu conforto. Confie em quem entende do assunto e

@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone } from "lucide-react";
-
+import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 const Contact = () => {
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para manutenção de ar condicionado.",
+      "https://wa.me/5511951621755?text=Olá! Gostaria de solicitar um orçamento para meu ar condicionado.",
       "_blank"
     );
   };
@@ -39,12 +38,21 @@ const Contact = () => {
           </motion.div>
           <div className="mt-12 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-gray-300">
             <div className="flex items-center">
+              <Instagram className="h-5 w-5 mr-2 text-[#83b653]" />
+              <span>@flaflor.climatizacao</span>
+            </div>
+            <div className="flex items-center">
               <Mail className="h-5 w-5 mr-2 text-[#83b653]" />
               <span>flaflor.climatizacao@gmail.com</span>
             </div>
+          </div>
+          <div className="mt-12 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-gray-300">
             <div className="flex items-center">
               <MapPin className="h-5 w-5 mr-2 text-[#83b653]" />
-              <span>Atendemos em todo o estado de São Paulo</span>
+              <span>
+                Atendemos em Jacareí (SP), Mogi das Cruzes (SP), São José dos
+                Campos (SP), Salesópolis (SP) e Suzano (SP)
+              </span>
             </div>
           </div>
         </motion.div>
